@@ -3,7 +3,7 @@
 > # Author: St1rr1ng (Team: UIT.ζp33d_0∫_Ψ1m3)
 ![screenshoot](https://i.imgur.com/4TPYCsB.png)
 
-### Mình mở tệp pcap bằng Wireshark và nhanh chóng thấy rằng đó là việc ghi lại một số quá trình truyền dữ liệu USB giữa một máy chủ lưu trữ và những gì có vẻ là một ổ USB flash.
+### Mình mở tệp pcapng bằng Wireshark và nhanh chóng thấy rằng đó là việc ghi lại một số quá trình truyền dữ liệu USB giữa một máy chủ lưu trữ và những gì có vẻ là một ổ USB flash.
 ### Các filter được sử dụng trong Wireshark cho traffic này có thể xem [ở đây](https://www.wireshark.org/docs/dfref/u/usb.html)
 ### Mặt khác, chúng tôi thấy rằng dữ liệu hàng loạt này được chuyển đến ```device address: 6``` trong USB bus, vì vậy mình xây dựng bộ lọc Wireshark sau để chỉ nhận các gói đó:
 
